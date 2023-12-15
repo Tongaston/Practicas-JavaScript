@@ -1,0 +1,47 @@
+:root {
+ --font: 'Share Tech Mono', monospace;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+body {
+    height: 100%;
+}
+
+#board, .boardInfo {
+    max-width: 600px;
+}
+
+.start, .boardInfo {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.gameOver {
+    display: none;
+}
+
+.boardInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.start {
+    background-color: #f35a69;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3, all, ease-in-out;
+}
+
+.scoreBoard {
+    display: inline-flex;
+}
