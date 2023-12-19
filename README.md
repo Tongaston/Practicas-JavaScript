@@ -1,4 +1,4 @@
-#Practicas HTML, CSS, Javascript
+Practicas HTML, CSS, JavaScript
 
 Creando 7 proyectos:
 -Snake
