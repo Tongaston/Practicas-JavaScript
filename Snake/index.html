@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Juego Snake">
-    <meta name="author" content="GMdev">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Juego Snake" />
+    <meta name="author" content="GMdev" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
 
-    <title>Snake | GMdev</title>
+    <title>Snake Game | GMdev</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Link CSS -->
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
 
     <!-- JavaScript -->
     <script src="./index.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Snake Game 🐍</h1>
+    </header>
+    <main class="container">
+      <div id="board"></div>
+      <section class="boardInfo">
+        <div>
+          Score:
+          <div id="scoreBoard"></div>
+        </div>
+        <button id="start">Start</button>
+      </section>
 
-</head>
-<body>
-    <div id="board"></div>
-        <section class="boardInfo">
-            <div>
-                Score: <div id="scoreBoard"></div>
-            </div>
-            <button class="start">Start</button>
-        </section>
-
-        <section class="gameOver">
-            Game Over
-        </section>
-
-    
-
-</body>
+      <section id="gameOver">Game Over</section>
+      <footer>
+        <h2>GMdev</h2>
+        <p class="nombre">Gastón Moure Developer</p>
+      </footer>
+    </main>
+  </body>
 </html>
