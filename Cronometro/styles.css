@@ -1,0 +1,142 @@
+:root {
+  --font-roboto: 'Roboto Mono', monospace;
+  --font-tech: 'Share Tech Mono', monospace;
+  --second-sphere-color: tomato;
+  --circle-color: #1d1d1d;
+}
+
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-roboto);
+  height: 100%;
+  background: rgb(0, 1, 9);
+  background: radial-gradient(
+    circle,
+    rgba(0, 1, 9, 1) 36%,
+    rgba(107, 12, 27, 1) 98%,
+    rgba(255, 0, 172, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: antiquewhite;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+main {
+  position: relative;
+  font-size: 25px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border: 1px solid #fff;
+  color: #fff;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle::before {
+  content: '';
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  background-color: var(--circle-color);
+  box-shadow: 9px -2px 21px 7px black;
+}
+
+.second-sphere {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--second-sphere-color);
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+  animation: rotacion 60s linear infinite;
+  animation-play-state: paused;
+}
+
+@keyframes rotacion {
+  from {
+    transform: rotate(-90deg) translateX(80px);
+  }
+  to {
+    transform: rotate(270deg) translateX(80px);
+  }
+}
+
+.buttons {
+  margin-top: 15px;
+  display: inline-flex;
+}
+
+.paused {
+  height: 15px;
+  border-width: 10px 0 10px 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-left: 15px;
+  border-color: transparent transparent transparent #fff;
+  transition: 100ms all ease;
+  will-change: border-width;
+  border-style: solid;
+}
+
+.running {
+  border-style: double;
+  border-width: 0 0 0 15px;
+}
+
+.stop {
+  background-color: #fff;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+footer {
+  font-family: var(--font-tech);
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  margin-top: 5px;
+  font-size: 10px;
+}

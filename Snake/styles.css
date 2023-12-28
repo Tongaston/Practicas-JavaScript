@@ -1,13 +1,5 @@
 :root {
   --font: 'Share Tech Mono', monospace;
-  --snake: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(12, 83, 17, 1) 51%,
-    rgba(15, 107, 12, 1) 83%,
-    rgba(17, 121, 9, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
 }
 
 * {

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cronómetro" />
+    <meta name="author" content="GMdev" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Cronómetro" />
+
+    <title>Cronómetro | GMdev</title>
+
+    <!-- FavIcon -->
+    <link rel="icon" type="image/x-icon" href="./temporizador.ico">
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Link JavaScript -->
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+        <h1>Cronómetro</h1>
+        <img src="./reloj.png" alt="cronometro">
+    </header>
+    <main class="circle">
+      <div id="watch" class="watch">00:00</div>
+      <section class="buttons">
+        <div class="stop" onclick="stop()"></div>
+        <div id="play-pause" class="paused" onclick="playPause()"></div>
+      </section>
+      <div id="second-sphere" class="second-sphere"></div>
+    </main>
+    <footer>
+        <h2>GMdev</h2>
+        <p>Gastón Moure Developer</p>
+    </footer>
+  </body>
+</html>
