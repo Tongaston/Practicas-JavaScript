@@ -1,0 +1,98 @@
+:root {
+  --font-calculator: 'Fraunces', serif;
+  --font-display-calculator: 'Orbitron', sans-serif;
+  --font-footer: 'Share Tech Mono', monospace;
+  --color-calculator: #00916e;
+  --color-background: #224870;
+}
+
+* {
+  color: antiquewhite;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: var(--color-background);
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 75px);
+  grid-template-rows: 160px repeat(5, 75px);
+  background-color: var(--color-calculator);
+  padding: 15px;
+  border-radius: 32px;
+  box-shadow: 15px 10px 10px 5px #00000050;
+}
+
+button {
+  font-family: var(--font-calculator);
+  cursor: pointer;
+  margin: 5px;
+  padding: 0;
+  border-radius: 32px;
+  font-size: 1.5em;
+  border: none;
+  background-color: var(--color-calculator);
+  box-shadow: 5px 5px 10px -3px #00000050, -5px 5px 15px 3px #00ffc11f;
+}
+
+button:active {
+  background-color: #006f54;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.display {
+  font-family: var(--font-display-calculator);
+  grid-column: 1 / -1;
+  padding: 16px;
+  display: flex;
+  margin: 10px 10px 20px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #363636;
+  border-radius: 32px;
+  text-align: right;
+  justify-content: space-between;
+  word-break: break-all;
+  box-shadow: 0px 0px 10px 10px #00000033;
+}
+
+#actual-value {
+  font-size: 1.5em;
+}
+
+#result {
+  font-size: 2em;
+}
+
+footer {
+  font-family: var(--font-footer);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.8;
+  
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.nombre {
+  font-size: 10px;
+  margin: 0;
+}
