@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="To do List" />
+    <meta name="author" content="GMdev" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    
+    <!-- Titulo -->
+    <title>To do List</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- JavaScript -->
+    <script src="./index.js" defer></script>
+
+</head>
+<body> 
+    <div class="titulo">
+        <h1>To Do List</h1>
+        <img src="./favicon.ico" alt="icono de lista">
+    </div>
+    <main class="list roundBorder">
+        <section class="calendar">
+            <div class="date">
+                <div id="dateNumber"></div>
+                <div>
+                    <div id="dateMonth"></div>
+                    <div id="dateYear"></div>
+                </div>
+            </div>
+            <div id="dateDay"></div>           
+        </section>
+        <form onsubmit="addNewTask(event)">
+            <input type="text" name="taskText" autocomplete="off" placeholder="Nueva tarea" class="roundBorder">
+            <button type="submit" class="addTaskButton">+</button>
+            <button type="button" class="orderButton roundBorder" onclick="renderOrderedTasks()">Ordenar</button>
+        </form>
+        <section id="tasksContainer"></section>
+    </main>
+    <footer>
+        <h2>GMdev</h2>
+        <p class="nombre">Gastón Moure Developer</p>
+      </footer>
+    
+</body>
+</html>

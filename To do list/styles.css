@@ -1,0 +1,143 @@
+:root {
+    --primary: #A5C882;
+    --secondary: #D33F49;
+    --light: #fff;
+    --dark: #000;
+    --disabled: #e7e7e7;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--disabled);
+}
+
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin-right: 15px;
+}
+
+*:first-letter {
+    text-transform: capitalize;
+}
+
+.roundBorder {
+    border-radius: 5px;
+}
+
+.list {
+    margin: 25px auto;
+    padding: 25px;
+    background-color: var(--light);
+    width: 100%;
+    max-width: 350px;
+}
+
+.calendar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#dateNumber {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#dateMonth {
+    font-weight: bold;
+}
+
+#dateDay {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+form {
+    margin: 20px 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 35px auto;
+    grid-column-gap: 15px;
+}
+
+input {
+    border: none;
+    background-color: var(--disabled);
+    padding: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.addTaskButton {
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--disabled);
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.orderButton {
+    color: var(--light);
+    background-color: var(--secondary);
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.task {
+    background-color: var(--primary);
+    padding: 15px;
+    margin-top: 15px;
+    color: var(--light);
+    cursor: pointer;    
+}
+
+.done {
+    background-color: var(--disabled);
+    color: var(--dark);
+    text-decoration: line-through;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    font-family: 'Share Tech Mono', monospace;
+    opacity: 0.8;
+  }
+  
+  h2 {
+    margin-bottom: 0;
+    font-size: 2rem;
+  }
+  
+  .nombre {
+    font-size: 10px;
+    margin: 0;
+  }
