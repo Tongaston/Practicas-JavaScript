@@ -1,0 +1,65 @@
+:root {
+    --font-pixel: 'Pixelify Sans', sans-serif;
+    --font-tech: 'Share Tech Mono', monospace;
+}
+
+.hidden {
+    color: transparent;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(54, 54, 54);
+    color: antiquewhite;
+    font-family: var(--font-pixel);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+#usedLetters {
+    color: tomato;
+}
+
+#wordContainer {
+    margin-top: 20px;
+}
+
+.letter {
+    margin: 0 7px;
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.letter::after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: antiquewhite;
+    min-width: 12px;
+}
+
+#startButton {
+    margin-top: 20px;
+    appearance: none;
+    font-family: var(--font-pixel);
+    border: none;
+    width: 300px;
+    padding: 10px;
+    background-color: tomato;
+    color: antiquewhite;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
