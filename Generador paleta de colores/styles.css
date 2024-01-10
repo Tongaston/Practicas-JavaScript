@@ -1,0 +1,79 @@
+:root {
+  --font-red-hat: 'Red Hat Display', sans-serif;
+  --font-tech: 'Share Tech Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-red-hat);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-weight: bolder;
+  background-color: rgb(255, 250, 241);
+}
+
+h1 {
+  margin: 0 0 40px 0;
+}
+
+#paletteContainer {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.paletteItem {
+  transition: background-color 0.5s;
+}
+
+.paletteItem span {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: antiquewhite;
+  display: inline-block;
+  min-width: 100px;
+}
+
+button {
+  font-family: var(--font-red-hat);
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.885);
+}
+
+footer {
+  font-family: var(--font-tech);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  opacity: 0.8;
+}
+
+h2 {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.nombre {
+  font-size: 10px;
+  margin: 0;
+}
