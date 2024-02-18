@@ -22,17 +22,27 @@ body {
   background-color: antiquewhite;
 }
 
+.white-bkg {
+    position: absolute;
+    background: #f6f6f6;
+    inset: 0;
+    z-index: -10;
+}
+.shadow {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+}
 main {
   background: url('./images/iphone.webp') no-repeat;
   background-size: contain;
   width: 320px;
   height: 640px;
   display: flex;
-  filter: drop-shadow(0 0 10px);
+  /* filter: drop-shadow(0 0 10px); */
+    position: relative;
 }
 
 section {
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
   width: 100%;
   border-radius: 32px;
   display: flex;
@@ -46,7 +56,9 @@ section {
 
 header {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+justify-content: start;
+padding-left: 1rem;
 
   & img {
     width: 24px;

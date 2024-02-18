@@ -26,8 +26,10 @@
     <script src="./index.js" type="text/javascript" defer></script>
   </head>
   <body>
+    <div class="shadow">
     <main>
       <section>
+        <div class="white-bkg"></div>
         <header>
           <img src="./images/tinder-logo.webp" alt="Tinder Logo" />
         </header>
@@ -58,14 +60,14 @@
 
         <div class="buttons">
           <button class="is-undo" aria-label="undo"></button>
-          <button class="is-remove is-big" aria-label="remove"></button>
+          <button id="nope" class="is-remove is-big" aria-label="remove"></button>
           <button class="is-star" aria-label="star"></button>
-          <button class="is-fav is-big" aria-label="fav"></button>
+          <button id="like" class="is-fav is-big" aria-label="fav"></button>
           <button class="is-zap" aria-label="zap"></button>
         </div>
       </section>
     </main>
-
+</div>
     <footer>
       <h2>GMdev</h2>
       <p class="nombre">Gastón Moure Developer</p>
