@@ -1,6 +1,6 @@
 Practicas HTML, CSS, JavaScript
 
-Creando 7 proyectos:
+Creando 8 proyectos:
 -Snake
 -Cronometro
 -Cifrado Cesar
@@ -8,3 +8,4 @@ Creando 7 proyectos:
 -To do List
 -Juego del ahorcado
 -Generador de paleta de colores
+-Tinder swipe
