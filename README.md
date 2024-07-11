@@ -43,21 +43,20 @@ Simulación del sistema de "swipe" de Tinder, donde los usuarios pueden deslizar
 
 1. **Clona el repositorio:**
 
-git clone https://github.com/tu-usuario/practicas-html-css-js.git
+git clone [https://github.com/tu-usuario/practicas-html-css-js.git](https://github.com/Tongaston/Practicas-JavaScript.git)
 
-Navega al directorio del proyecto:
+2. **Navega al directorio del proyecto:**
 
-bash
-Copiar código
-cd practicas-html-css-js
-Abre el archivo index.html en tu navegador para acceder a la página principal que enlaza a todos los proyectos.
+cd Practicas-JavaScript
 
-bash
-Copiar código
+3. **Abre el archivo index.html en tu navegador para acceder a la página principal que enlaza a todos los proyectos.**
+
 open index.html
-Cada proyecto se encuentra en su propio directorio dentro de la estructura del repositorio.
 
-Estructura del Proyecto
+- Cada proyecto se encuentra en su propio directorio dentro de la estructura del repositorio.
+
+##Estructura del Proyecto
+
 La estructura del proyecto es la siguiente:
 
 css
