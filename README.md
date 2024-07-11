@@ -39,12 +39,12 @@ Herramienta para generar paletas de colores aleatorias y copiar los códigos de 
 ### 8. Tinder Swipe
 Simulación del sistema de "swipe" de Tinder, donde los usuarios pueden deslizar tarjetas a la izquierda o derecha para rechazar o aceptar respectivamente.
 
-Instalación y Uso
-Clona el repositorio:
+## Instalación y Uso
 
-bash
-Copiar código
+1. **Clona el repositorio:**
+
 git clone https://github.com/tu-usuario/practicas-html-css-js.git
+
 Navega al directorio del proyecto:
 
 bash
