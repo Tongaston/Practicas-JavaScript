@@ -55,55 +55,13 @@ open index.html
 
 - Cada proyecto se encuentra en su propio directorio dentro de la estructura del repositorio.
 
-##Estructura del Proyecto
+## Estructura del Proyecto
 
 La estructura del proyecto es la siguiente:
 
-css
-Copiar código
-practicas-html-css-js/
-│
-├── snake/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-├── cronometro/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-├── cifrado-cesar/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-├── calculadora-interactiva/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-├── to-do-list/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-├── juego-del-ahorcado/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-├── generador-paleta-colores/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-├── tinder-swipe/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-└── README.md
+<img width="712" alt="Captura de pantalla 2024-07-11 a las 22 16 22" src="https://github.com/user-attachments/assets/f3a4eb85-5306-4b35-acdc-ad9072f8aa97">
+<img width="708" alt="Captura de pantalla 2024-07-11 a las 22 16 47" src="https://github.com/user-attachments/assets/9ca49e03-f33f-4643-b8d3-099d18565db3">
+
 Contribución
 Si deseas contribuir al proyecto, sigue estos pasos:
 
