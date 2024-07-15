@@ -62,29 +62,28 @@ La estructura del proyecto es la siguiente:
 <img width="712" alt="Captura de pantalla 2024-07-11 a las 22 16 22" src="https://github.com/user-attachments/assets/f3a4eb85-5306-4b35-acdc-ad9072f8aa97">
 <img width="708" alt="Captura de pantalla 2024-07-11 a las 22 16 47" src="https://github.com/user-attachments/assets/9ca49e03-f33f-4643-b8d3-099d18565db3">
 
-Contribución
+## Contribución
+
 Si deseas contribuir al proyecto, sigue estos pasos:
 
-Forkea el repositorio.
+1. ### Forkea el repositorio.
 
-Crea una rama para tu característica (feature):
+2. ### Crea una rama para tu característica (feature):
 
-bash
-Copiar código
 git checkout -b mi-nueva-caracteristica
-Haz commit de tus cambios:
 
-bash
-Copiar código
+3. ### Haz commit de tus cambios:
+
 git commit -m 'Agrega mi nueva característica'
-Sube tu rama al repositorio:
 
-bash
-Copiar código
+4. ### Sube tu rama al repositorio:
+
 git push origin mi-nueva-caracteristica
-Abre una solicitud de extracción (pull request).
 
-Contacto
+5. ### Abre una solicitud de extracción (pull request).
+
+## Contacto
+
 Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactarme directamente.
 
 
