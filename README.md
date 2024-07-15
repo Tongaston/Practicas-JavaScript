@@ -66,21 +66,21 @@ La estructura del proyecto es la siguiente:
 
 Si deseas contribuir al proyecto, sigue estos pasos:
 
-1. ### Forkea el repositorio.
+1. **Forkea el repositorio.**
 
-2. ### Crea una rama para tu característica (feature):
+2. **Crea una rama para tu característica (feature):**
 
 git checkout -b mi-nueva-caracteristica
 
-3. ### Haz commit de tus cambios:
+3. **Haz commit de tus cambios:**
 
 git commit -m 'Agrega mi nueva característica'
 
-4. ### Sube tu rama al repositorio:
+4. **Sube tu rama al repositorio:**
 
 git push origin mi-nueva-caracteristica
 
-5. ### Abre una solicitud de extracción (pull request).
+5. **Abre una solicitud de extracción (pull request).**
 
 ## Contacto
 
